@@ -1,19 +1,18 @@
 body{
-	color: #02383C;
-	background-color: #B6E6BD; 
+	color: white;
+	background-color:#F77754;
+	background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-cinema-movie-promotion-poster-background-material-image_150174.jpg"); 
 	font-size: 36px;
 }
 h1{
 	font-size: 36px;
-	color: #1A2849;
+	color: white;
 
 }
 h2{
-	font-size: 18px;
-	color: #000000;
-
+	font-size: 10px;
 }
-h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6{
 		font-family: "Helvetica","Arial", sans-serif;
 		font-weight: normal;
 }
@@ -25,4 +24,25 @@ a{
 }
 p{
 	text-align: left;
+}
+.titulo{
+	width: 600px;
+	margin: 0 auto;
+	color: #584B42;
+	background-color:#ba7728;
+	border: 4px solid #F77754;
+}
+.articulo	{
+	width: 600px;
+	margin: 0 auto;
+	border: 5px solid #ba7728;
+	background-color:#F77754;
+	padding-right: : 2px;
+}
+.datos{
+	width: 500px;
+	margin: 0 auto;
+	color: #44000D;
+	background-color: #F9D276;
+	border: 4px solid #44000D; 
 }
