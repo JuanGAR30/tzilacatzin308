@@ -1,0 +1,58 @@
+body{
+	color: white;
+	background-color:#F77754;
+	background-image: url("https://www.uefa.com/MultimediaFiles/Photo/competitions/UCL/84/70/31/847031_w1.jpg"); 
+	font-size: 36px;
+}
+h1{
+	font-size: 36px;
+
+}
+h1, h2, h3, h4, h5, h6{
+		font-family: "Helvetica","Arial", sans-serif;
+		font-weight: normal;
+}
+ul{
+	list-style-type: circle;
+}
+a{
+	text-decoration: none;
+}
+p{
+	text-align: left;
+}
+.articulo	{
+	width: 600px;
+	margin: 0 auto;
+	border: 5px solid green;
+	background-color:gold;
+	padding-right: : 2px;
+}
+.titulo{
+	width: 600px;
+	margin: 0 auto;
+	color: white;
+	background-color:green;
+	border: 4px solid gold;
+	padding-bottom: 1px;
+	
+}
+
+	@media screen and (max-width:480px) {
+		.titulo,.articulo,.datos{
+			width: 50%;
+		}
+		
+		h1, h2, h3, h4, h5, h6,ul,p,ol{
+	        font-size: 12px;
+        }
+        img{
+            width: 30px;
+            height:20px;
+        }
+        iframe{
+            width: 30px;
+            height:20px;
+        }
+
+	}
